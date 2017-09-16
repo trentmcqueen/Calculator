@@ -253,18 +253,21 @@ namespace WindowsFormsApp1
                 equals = num1 + num2;
                 display.Text = equals.ToString();
                 input = equals.ToString();
+                operation = '\0';
             }
             else if (operation == '-')
             {
                 equals = num1 - num2;
                 display.Text = equals.ToString();
                 input = equals.ToString();
+                operation = '\0';
             }
             else if (operation == '*')
             {
                 equals = num1 * num2;
                 display.Text = equals.ToString();
                 input = equals.ToString();
+                operation = '\0';
             }
             else if (operation == '/')
             {
@@ -273,6 +276,7 @@ namespace WindowsFormsApp1
                     equals = num1 / num2;
                     display.Text = equals.ToString();
                     input = equals.ToString();
+                    operation = '\0';
                 }
                 else
                 {
